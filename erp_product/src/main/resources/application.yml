@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  #Mysql数据库连接池
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mall?
+           ullNamePatternMatchesAll=true&amp;serverTimezone=GMT%2b8?
+           useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
